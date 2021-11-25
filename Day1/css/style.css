@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    padding: 0px;
+    margin:0px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+body{
+    background-color:#ffff;
+}
+
+h1{
+    text-align:center;
+    margin-top:5rem;
+}
+
+
+.registration{
+    margin-top: 3rem;
+    font-size: larger;
+    font-weight:bold;
+   
+}
+
+#logo{
+    text-decoration: none;
+    color: black;
+
+}
+
+#logo:hover{
+    color:blue;
+}
+
+.nav-wrapper{
+    background-color:#00A5C0; 
+    height:5rem;
+    display:flex;
+    justify-content:space-between;
+    padding:10px;
+    text-decoration: none;
+}
+
+.menu{
+    text-decoration: none;
+    color:black;
+    padding:5px;
+    margin-top:30px;
+    font-size:18px;
+   
+}
+
+.nav-links{
+    margin-top:3rem;
+   
+}
+.menu:hover{
+    font-size:20px;
+    transition: smooth 2ms;
+}
+
+.control{
+    padding:2px;
+    
+}
+
+.inputs{
+    text-align:center;
+   padding:20px;
+}
+
+input, label{
+    display:block;
+    margin:auto;
+    
+}
+
+
+.emailLabel{
+    margin-right:7.6rem;
+} 
+
+.passLabel{
+    margin-right:5.6rem;
+
+}
+
+.fnameLabel{
+    margin-right:5rem;
+}
+.lnameLabel{
+    margin-right:5rem;
+}
+
+.ageLabel{
+    margin-right:8.5rem;
+}
+
+.addressLabel{
+    margin-right:6.5rem;
+
+}
+.phoneLabel{
+    margin-right:3rem;
+}
+
+.payLabel{
+    
+}
+
+
+.colorLabel{
+    margin-right:8rem;
+}
+
+
+.registerBtn{
+    padding:5px;
+    
+}
+registerBtn:hover{
+    background-color:dodgerblue;
+}
+
